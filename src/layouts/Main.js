@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
 
 import Header from '../components/Templates/Header';
-// import Nav from '../components/Templates/Nav';
+import Nav from '../components/Templates/Nav';
 
 // if (NODE_ENV === 'production') {
 //   ReactGA.initialize(GA_ID);
@@ -33,7 +33,7 @@ class Main extends Component {
         <div id="main">
           {this.props.children}
         </div>
-        {/* {!this.props.fullPage && <Nav />} */}
+        {!this.props.fullPage && <Nav />}
       </div>);
   }
 }

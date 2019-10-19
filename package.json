@@ -2,6 +2,7 @@
   "name": "webume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://disha00991.github.io/webume",
   "dependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
