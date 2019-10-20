@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/webume/static/css/main.76ed0770.chunk.css",
-    "main.js": "/webume/static/js/main.e899dece.chunk.js",
-    "main.js.map": "/webume/static/js/main.e899dece.chunk.js.map",
+    "main.js": "/webume/static/js/main.ee55f8b6.chunk.js",
+    "main.js.map": "/webume/static/js/main.ee55f8b6.chunk.js.map",
     "runtime-main.js": "/webume/static/js/runtime-main.6e8e1a60.js",
     "runtime-main.js.map": "/webume/static/js/runtime-main.6e8e1a60.js.map",
     "static/css/2.764ccc25.chunk.css": "/webume/static/css/2.764ccc25.chunk.css",
-    "static/js/2.c4899402.chunk.js": "/webume/static/js/2.c4899402.chunk.js",
-    "static/js/2.c4899402.chunk.js.map": "/webume/static/js/2.c4899402.chunk.js.map",
+    "static/js/2.f833ddf3.chunk.js": "/webume/static/js/2.f833ddf3.chunk.js",
+    "static/js/2.f833ddf3.chunk.js.map": "/webume/static/js/2.f833ddf3.chunk.js.map",
     "index.html": "/webume/index.html",
-    "precache-manifest.70cec737456cc574bc7aa7cee7d1f27c.js": "/webume/precache-manifest.70cec737456cc574bc7aa7cee7d1f27c.js",
+    "precache-manifest.ffe6c573a0c0d270b4f92610af524700.js": "/webume/precache-manifest.ffe6c573a0c0d270b4f92610af524700.js",
     "service-worker.js": "/webume/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/webume/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.76ed0770.chunk.css.map": "/webume/static/css/main.76ed0770.chunk.css.map"
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e8e1a60.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.c4899402.chunk.js",
+    "static/js/2.f833ddf3.chunk.js",
     "static/css/main.76ed0770.chunk.css",
-    "static/js/main.e899dece.chunk.js"
+    "static/js/main.ee55f8b6.chunk.js"
   ]
 }
