@@ -1,16 +1,16 @@
 const data = [
     {
       path: '/',
-      label: 'Disha Singh',
+      label: 'Webume',
       index: true,
-    },
-    {
-      path: '/about',
-      label: 'About',
     },
     {
       path: '/resume',
       label: 'Resume',
+    },
+    {
+      path: '/dreams',
+      label: 'My Dreams',
     },
     {
       path: '/projects',

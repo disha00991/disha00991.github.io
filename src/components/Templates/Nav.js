@@ -19,7 +19,7 @@ const Nav = () => (
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      <h2>Who's She?</h2>
       <p>Hi, I&apos;m Disha. I like appreciating people who build things and get inspired.
             I am a proud <a href="https://nith.ac.in/">NIT, Hamirpur, India</a> graduate, and {/* add dance club link @TODO*/}
             the co-founder of 3rd year choreo in <a href="#">Dance Club Rhythmeecs</a>. After college I was

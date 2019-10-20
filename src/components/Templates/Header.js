@@ -12,7 +12,7 @@ const Header = () => (
       ))}
     </h1>
     <nav className="links">
-      <ul>
+      <ul className="links-ul">
         {routes.filter((l) => !l.index).map((l) => (
           <li key={l.label}>
             <Link to={l.path}>{l.label}</Link>
