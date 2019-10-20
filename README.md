@@ -1,4 +1,4 @@
-### `This website was born when I woke up one day that it's as necessary as my breakfast!`
+## This website was born when I woke up one day & thought that it's as necessary as my breakfast!
 
 Feel free to clone and use as template.<br />
 Just open [http://localhost:3000](http://localhost:3000) to view it in the browser.
