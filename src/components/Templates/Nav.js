@@ -10,7 +10,7 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`/images/1.jpg`} alt="" />  {/*<img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" /> @TODO add basepath*/}
+        <img src='/images/1.jpg' alt="" />  {/*<img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" /> @TODO add basepath*/}
       </Link>
       <header>
         <h2>Disha Singh</h2>
