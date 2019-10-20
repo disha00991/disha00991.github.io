@@ -80,7 +80,7 @@ Palo Alto, Mountain View, San Francisco, Seattle, and New York.
 
 #### I dream of
 
-- always finding inspiration.
+- Making an app that can
 - enabling a brighter future.
 - doing better.
 - no one checking my commit history for early drafts of this file.
