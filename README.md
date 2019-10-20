@@ -6,6 +6,10 @@ Just open [http://localhost:3000](http://localhost:3000) to view it in the brows
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+## Contributors
+
+* [@disha00991](https://github.com/disha00991)
+
 ## Acknowledgements
 
 * Special thanks to gh-pages for letting me host my tech website free of cost, that too with a domain name<br/>
