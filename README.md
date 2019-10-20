@@ -9,6 +9,6 @@ You will also see any lint errors in the console.
 ## Acknowledgements
 
 * Special thanks to gh-pages for letting me host my tech website free of cost, that too with a domain name<br/>
-* that isn't a bit less cooler than those I could pay for!
+  that isn't a bit less cooler than those I could pay for!
 * Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
 * And ofc as you can tell: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
