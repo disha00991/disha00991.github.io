@@ -6,10 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import Main from '../layouts/Main';
 
 import markdown from '../data/dreams.md';
-
-// const count = markdown.split(/\s+/)
-//     .map((s) => s.replace(/\W/g, ''))
-//     .filter((s) => s.length).length;
+import Spinner from '../components/Loader';
 
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
@@ -38,16 +35,17 @@ export class Dreams extends React.Component {
                 <header>
                     <div className="title">
                         <h2><Link to="/about">My Not-So-Unrealistic Dreams</Link></h2>
-                        <p>(in about {this.state.count} words)</p>
+                        {false !== 0 && <p>(in about {this.state.count} words)</p>}
+                        {true && <><p>They're so many, it's taking time to load!<div style={{display:'inline-block', marginLeft: '15px'}}><Spinner height={40} width={40}></Spinner></div></p> </>}
                     </div>
                 </header>
-                <ReactMarkdown
+                {false && <ReactMarkdown
                     source={this.state.markdown}
                     renderers={{
                         Link: LinkRenderer,
                     }}
                     escapeHtml={false}
-                />
+                />}
             </article>
         </Main>;
     }
