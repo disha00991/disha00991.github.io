@@ -34,12 +34,12 @@ export class Dreams extends React.Component {
             <article className="post" id="about">
                 <header>
                     <div className="title">
-                        <h2><Link to="/about">My Not-So-Unrealistic Dreams</Link></h2>
+                        <h2>My Not-So-Unrealistic Dreams</h2>
                         {false !== 0 && <p>(in about {this.state.count} words)</p>}
-                        {true && <><p>They're so many, it's taking time to load!<div style={{display:'inline-block', marginLeft: '15px'}}><Spinner height={40} width={40}></Spinner></div></p> </>}
+                        {!this.state.markdown && <><p>They're so many, it's taking time to load!<div style={{display:'inline-block', marginLeft: '15px'}}><Spinner height={40} width={40}></Spinner></div></p> </>}
                     </div>
                 </header>
-                {false && <ReactMarkdown
+                {this.state.markdown && <ReactMarkdown
                     source={this.state.markdown}
                     renderers={{
                         Link: LinkRenderer,

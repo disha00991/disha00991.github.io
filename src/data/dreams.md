@@ -1,86 +1,45 @@
 
 #### Intro
-I am a co-founder and the CTO of [Arthena](https://arthena.com) where I work on engineering infrastructure and build tools to price fine art. My primary job functions are as a data scientist and software engineer.
-<br>
-I am available to consult on interesting projects. I am particularly interested in social impact, education, inclusivity, and space. I enjoy advising companies and may even be available for pro-bono work depending on the time commitment and the project. If you would like to arrange a meeting, I am based in New York but travel to the San Francisco Bay Area frequently.
-<br><br>
+I am a B.Tech graduate with 2 years of experience in the IT industry. My primary job functions are as a software developer. But I've always felt that I was not born to do just one sort of work. I am sure, I feel different from the rest, as not many people I share my thoughts with, connect with me. 
+<br/><hr/>
+I like philosophizing about vague conventions, human behaviours, climate change, end of the world and so on. It sometimes bewilders me how the concept of money is just virtual: a random number in each of our banks, and still holds the power to decide what resources of this planet will "BELONG" to whom. Then I stop, and begin reading *The Kite Runner* by Khaled Hosseini for the fifth time. Peace.
+
+<br/>
+
 #### Currently
-At Arthena I have learned how to build teams and manage people, build relationships with customers, sell enterprise products, and build on-line predictive models for production environments. I've also learned how to build and maintain large web applications (see [arthena.com](https://arthena.com)).
-<br><br>
+I am on a learning spree while being at work, meaning -> I am pretty fortunate. I do what my heart likes, not to mention, I watch any movie, without facing judgement from anyone. Lately, the extremity of getting inspired from each movie I see has heightened. I feel as if my brain has developed exponentially in a short span of time and its astonishing to start seeing the world so differently all of a sudden.
+<hr/>
+Following this: all my childhood thoughts have started to gain shape and I like to believe that out of zillions of humans at least I am one those who will make these things a reality one day.
+<br><hr/>
+
 #### Some history
 
-- My parents put a computer in my bedroom in 1993 when I was 3. It was an old Tandy that ran MS-DOS. My favorite games were Street Rod 2, Wolfenstein 3D, and Tom and Jerry. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
+- I have been a part of an extremely lovable family, parents who taught me every detail of kindness, selflessness and brought me up showing how to live a frugal life while still having everything one needs. Most importantly, garnering happiness from showing care.
 
-- We subscribed to AOL in 1995. I still remember installing it from a floppy disk onto our brand new Packard Bell. It took years for me to send my first email.
+- At 24, this personality has transformed into caring for the whole planet. Although, I have come to terms with the fact that I alone cannot change every problem on earth and it's okay. Yet, I can do my own bit. You see, it's not enough but that's all I can do and urge others to do the same. Work. Inspire. Work.
 
-- In the summer of 1996, my uncle purchased [MegaRace](https://en.wikipedia.org/wiki/MegaRace) from [Media Play](https://en.wikipedia.org/wiki/Media_Play) and installed it on my mom's work computer. I might have endangered her business by using her computer too much.
+- I realized quite late in my life that **Computer Science alone can change the face of this earth**, once people forget about revenues and build technology for the planet: which ultimately implies technology for our own beautiful future. But, who will be so short-term-selfless-long-term-selfish? I think I will. But but. First I have to prove my powers to my parents, to this world by becoming a leader in this field. So that my care for the planet, is not confused with mediocrity. This attention is a big need. A call of the future. Atleast in my opinion. My belief.
 
-- At 7, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
+<hr/>
 
-- At 8, my parents bought me a Sony Mavica MVC-FD71 digital camera after I stole their SLR one too many times. It could fit 10 images to a floppy disk at a 0.3MP resolution. I still have it and it still works. I've been taking photographs ever since, now with a Nikon D750, D800, and occasionally with a Mamiya 6II.
+#### The Dreams *...under construction*
 
-- At 10, I built my first website with Microsoft FrontPage on our Pentium III [Gateway](https://en.wikipedia.org/wiki/Gateway,_Inc.). My website was terrible.
+- I need to understand the planet and its people more. Visit more than my own country and make sense of what's going on that we need military? We know we have land to live and we do not have to encroach on others' land. Why the threatening of military? Where will we go with the Rafael or the MIG-xyz?
 
-- I was 11 when I built my first [Tesla Coil](https://en.wikipedia.org/wiki/Tesla_coil) (without the permission of my parents). Over the next few years, I built several more including one of the first audio modulated coils and one of the first DRSSTCs.
+- I wish to open a start up in future which somehow manages to get healthy, untouched left over food which although doesn't meet their demand of high class food, can fill hundreds of empty stomach roaming around. Considering my country India ranking among the highest in hunger. Also a country where people throw homemade food and order from Swiggy because the cook forgot to put some salt perhaps!
 
-- When I was 12, I set the all-time high record at my local laser tag facility by reverse engineering the charging station and weapon protocols with a photo-resistor, micro-cassette recorder, and a lot of patience. I was unstoppable.
+- I need to spread the already diffused and lost word: STOP wasting food. We cut trees to grow crops that we don't eat. We don't allow water to seep by building concrete roads and complain about groundwater shortage, yet we are more excited about researching how a robot can have sensitive skin than how roads can be made with a material that allows for water seepage. -_- !
 
-- At 13, I went to space camp and fell in love. I went back two more times and promised myself that I'd work in space. I've since helped build three generations of satellites and have tangentially worked on two more.
+- Our ancestors have given us this beautiful planet by consistently identifying the REAL problems around and solving things meticulously. But today, it seems that we have stopped digging into problems. My absolutely personal opinion: We are overly spoilt and want cheap luxuries moving forward than worrying about basic necessities that will bother us in future if not seen today. Can you play with your robot puppy in the dirty blizzard of carbon blowing outside your house?
 
-- At 14, I was almost expelled for finding a backdoor into my high school's file server and telling everyone but the faculty members about it. Later that year, I figured out how to turn off the internet firewall by editing system registry keys. I anonymously shared my work months later.
+I am sure there are a few things I miss every time I come to update this page, but once, at least some of these things are true, I'll transfer these to a novel and right without restriction. As I said, <br/>
+*One becomes worthy of a listener's time only once he holds credibility for his words.*
+<hr/>
 
-- At 16, I participated in a foreign exchange program in Dortmund, Germany. Since then, I've gone back almost every year.
+#### Some mediocre mandatory dreams
+*May/maynot become true based on time/money/space complexity of solution thereupon*
+- A small rocky hut in a hilly mountaineous location for my kids' vacation
+- At least one live encounter of the Aurora in the skies of Alaska
+- Banning Dolphin Shows, zoo culture and releasing all these "β" creatures together into the wild.
 
-- 14 - 17, I played a lot of video games. My favorites included Counter Strike Source, Command and Conquer 3, Halo 2, and Age of Empires 3.
-
-- At 18, In the summer before college, my friends and I started playing <a href="https://en.wikipedia.org/wiki/Quidditch_(sport)">Muggle Quidditch</a>. We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association) including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on facebook.
-
-- At 19, I took my first graduate course and published my first academic paper.
-
-- At 20, I coauthored a grant to build a satellite and managed a 60+ person team through the end of undergrad. You can read more about that [here](https://ubnl.space/glados/).
-
-You can ask me in person for other stories that I'm afraid to share with the internet.
-<br><br>
-#### I like
-- Skiing
-- Sailing and the sea
-- Space
-- Summer
-- [Books](https://www.goodreads.com/mdangelo)
-- Colored pencils (Faber-Castell Polychromos)
-- Podcasts ([Planet Money](https://www.npr.org/sections/money/), [The Indicator](https://www.npr.org/podcasts/510325/the-indicator-from-planet-money), [99% Invisible](https://99percentinvisible.org/episodes/), [The Economist](http://radio.economist.com/), [Radiolab](https://www.wnycstudios.org/shows/radiolab), [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain), [Inquiring Minds](https://inquiring.show), and others)
-- [Good design](/)
-- [Photography](https://instagram.com/dangelosaurus)
-
-#### Travel / Geography
-
-- I am from originally from Buffalo, New York. I have since lived in
-Palo Alto, Mountain View, San Francisco, Seattle, and New York.
-
-- I've been to ~ 50 countries, some of which I have forgotten, and many of which I would like to revisit.
-
-- In 2016, I visited: Canada, Ethiopia, Austria, Germany, Belgium, Ireland, Northern Ireland, Italy, Romania, Sweden, Norway, Svalbard, Panama, Costa Rica, Uganda, Japan, and the UAE, mostly in that order.
-
-- In 2017, I visited: Canada, Japan, Denmark, Germany, Sweden, Estonia, Russia, the Netherlands, Belgium, the U.K., Spain, Iceland, France, Switzerland, Ethiopia, and Luxembourg.
-
-- In 2018, I visited: Canada, France, Italy, Israel, and the U.K.
-
-- In 2019, I visited: Canada, England, France, and Switzerland. I plan to visit:  Norway.
-
-- I am an Oregon Trail II enthusiast.
-
-#### Fun facts
-
-- I have a list of thousands of ideas, like creating matching bow ties for cats and humans.
-- I almost always have a sketchbook with me.
-- I can't locate every country on a map.
-- I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns.
-- I break about 30 traffic laws on an [electric skateboard](https://boostedboards.com/vehicles/shortboards/boosted-mini-x), [onewheel](https://onewheel.com/products/xr), or [bicycle](https://www.citibikenyc.com/) every single day.
-- I added this page because so many people complained that my site was just a resume.
-
-#### I dream of
-
-- Making an app that can
-- enabling a brighter future.
-- doing better.
-- no one checking my commit history for early drafts of this file.
+<div style="text-align: center">***</div>
