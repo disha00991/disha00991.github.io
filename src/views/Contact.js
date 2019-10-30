@@ -7,14 +7,6 @@ import Main from '../layouts/Main';
 
 import data from '../data/contact';
 
-// Validates the first half of an email address.
-const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
-  // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-  return re.test(text) || text.length === 0;
-};
-
 const messages = [
   'Some new idea to save the world?',
   'My grandson in 2065 admiring his Granny\'s old website?',
@@ -89,7 +81,7 @@ const Contact = () => {
           <p>My formal mails usually arrive at{' '}
             <a href="mailto:disha.singh00991@gmail.com" style={{ color: 'teal' }}>disha.singh00991@gmail.com</a></p>
             <p>My informal mails drop by here:{' '}
-            <a href="mailto:directionstar86@gmail.com" style={{ color: 'teal' }}>directionstar86@gmail.com</a></p>
+            <a href="mailto:directionstar86@gmail.com" style={{ color: 'teal' }}>umpgyani directionstar86@gmail.com</a></p>
         </div>
         <ul className="icons">
           {data.map((s) => (

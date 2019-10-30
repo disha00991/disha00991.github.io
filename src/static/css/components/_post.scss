@@ -245,3 +245,28 @@
 			}
 		}
 	}
+	.carousel-indicators {
+		bottom: -30px;
+	}
+	.carousel-indicators li {
+		background-color: teal;
+	}
+
+	.carousel-control-prev, .carousel-control-next {
+		background-color: teal;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		opacity: 0.9;
+		top: 7px;
+		z-index: 1000;
+	}
+
+	.carousel-control-next {
+		right: 7px;
+	}
+
+	.carousel-control-prev {
+		right: 65px;
+		left: unset;
+	}

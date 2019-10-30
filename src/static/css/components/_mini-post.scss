@@ -52,20 +52,13 @@
     width: 100%;
 
     img {
-      @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
-      width: 100%;
-    }
-
-    &:hover {
-      img {
-        @include vendor( 'transform', 'scale(1.05)');
-      }
+      height: 300px;
     }
   }
 
   header {
     z-index: 2;
-    @include padding(1.25em, 1.25em, (0, 3em, 0, 0));
+    padding: 1.25em 8.75em 0.1em 1.25em;
     min-height: 4em;
     position: relative;
     @include vendor( 'flex-grow', '1');

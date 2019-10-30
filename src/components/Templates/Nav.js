@@ -10,7 +10,7 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src='/images/me.jpg' alt="My Photo" />  {/*<img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" /> @TODO add basepath*/}
+        <img src={process.env.PUBLIC_URL+'/images/me.jpg'} alt="My Photo" />
       </Link>
       <header>
         <h2>Disha Singh</h2>

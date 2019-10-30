@@ -1,4 +1,4 @@
-
+//TODO Add about experience
 const positions = [
   {
     company: 'THB Technology | Healthcare | Big Data Analytics',
@@ -6,7 +6,7 @@ const positions = [
     link: 'www.thb.co.in',
     daterange: 'September 2019 - Present',
     points: [
-      
+      'Developing'
     ],
   }, {
     company: 'Publicis Sapient',
