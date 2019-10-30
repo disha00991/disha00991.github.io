@@ -31,11 +31,11 @@ export class Dreams extends React.Component {
     render() {
         return <Main>
             <Helmet title="Dreams" />
-            <article className="post" id="about">
+            <article className="post" id="dreams">
                 <header>
                     <div className="title">
                         <h2>My Not-So-Unrealistic Dreams</h2>
-                        {false !== 0 && <p>(in about {this.state.count} words)</p>}
+                        {false !== 0 && <p>(In about {this.state.count} words)</p>}
                         {!this.state.markdown && <><p>They're so many, it's taking time to load!<div style={{display:'inline-block', marginLeft: '15px'}}><Spinner height={40} width={40}></Spinner></div></p> </>}
                     </div>
                 </header>

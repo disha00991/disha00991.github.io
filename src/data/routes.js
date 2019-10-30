@@ -17,6 +17,10 @@ const data = [
       label: 'Projects',
     },
     {
+      path: '/about',
+      label: 'About Me'
+    },
+    {
       path: '/contact',
       label: 'Contact',
     },

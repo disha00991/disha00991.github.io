@@ -9,7 +9,7 @@ import Index from './views/Index';
 import Resume from './views/Resume';
 import Dreams from './views/Dreams';
 import Projects from './views/Projects';
-// import Stats from './views/Stats';
+import About from './views/About';
 import Contact from './views/Contact';
 
 import NotFound from './views/NotFound';
@@ -26,10 +26,8 @@ function App() {
           <Route path="/resume" component={Resume} />
           <Route path="/dreams" component={Dreams} />
           <Route path="/projects" component={Projects} />
+          <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          {/* 
-      <Route path="/stats" component={Stats} />
-      {/* Only useful in development mode */}
           <Route component={NotFound} status={404} />
         </Switch>
       </Router>
