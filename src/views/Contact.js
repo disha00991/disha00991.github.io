@@ -31,7 +31,7 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => {}; // pass linter
+    return () => { }; // pass linter
   }, [delay]);
 };
 
@@ -69,19 +69,19 @@ const Contact = () => {
             <h2><Link to="/contact">Contact</Link></h2>
           </div>
         </header>
-        <div className="email-at">          
+        <div className="email-at">
+          <p>My formal mails usually arrive at{' '}
+            <a href="mailto:disha.singh00991@gmail.com" style={{ color: 'teal' }}>disha.singh00991@gmail.com</a></p>
+          <p>My informal mails drop by here:{' '}
+            <a href="mailto:directionstar86@gmail.com" style={{ color: 'teal' }}>directionstar86@gmail.com</a></p>
           <div
             className="inline-container"
             style={{ color: 'red' }}
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
           >
-              <p>{message}</p>              
+            <p style={{position: 'absolute', bottom: '84px'}}>{message}</p>
           </div>
-          <p>My formal mails usually arrive at{' '}
-            <a href="mailto:disha.singh00991@gmail.com" style={{ color: 'teal' }}>disha.singh00991@gmail.com</a></p>
-            <p>My informal mails drop by here:{' '}
-            <a href="mailto:directionstar86@gmail.com" style={{ color: 'teal' }}>umpgyani directionstar86@gmail.com</a></p>
         </div>
         <ul className="icons">
           {data.map((s) => (
