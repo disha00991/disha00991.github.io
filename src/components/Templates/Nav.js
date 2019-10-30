@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 import data from '../../data/contact';
-
+const basepath = process.env.PUBLIC_URL;
 const Nav = () => (
   <section id="sidebar">
     <section id="intro">
@@ -26,8 +26,8 @@ const Nav = () => (
             at <a href="https://www.publicissapient.com">Publicis Sapient</a>, and currently exploring my potential at <a href="www.thb.co.in">THB India</a>.
       </p>
       <ul className="actions">
-        <li>{/*window.location.pathname !== `${BASE_PATH}/resume` @TODO*/}
-          {window.location.pathname !== `/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+        <li>
+          {window.location.pathname !== `${basepath}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
     </section>
