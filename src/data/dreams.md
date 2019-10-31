@@ -13,7 +13,7 @@ I am sure there are a few things I miss every time I come to update this page, b
 <hr/>
 
 #### Some mediocre mandatory dreams
-*May/maynot become true based on time/money/space complexity of solution thereupon*
+*May / May not become true based on time/money/space complexity of solution thereupon*
 - A small rocky hut in a hilly mountaineous location for my kids' vacation
 - At least one live encounter of the Aurora in the skies of Alaska
 - Banning Dolphin Shows, zoo culture and releasing all these "β" creatures together into the wild.

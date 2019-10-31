@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 import data from '../../data/contact';
 const basepath = process.env.PUBLIC_URL;
 const Nav = () => (
@@ -37,7 +34,7 @@ const Nav = () => (
         {data.map((s) => (
           <li key={s.label}>
             <a href={s.link}>
-              <FontAwesomeIcon icon={s.icon} />
+              <i className={s.iconClass}></i>
             </a>
           </li>
         ))}

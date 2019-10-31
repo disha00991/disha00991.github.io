@@ -1,14 +1,14 @@
-#### Intro
-I am a B.Tech graduate with 2 years of experience in the IT industry. My primary job functions are as a software developer. But I've always felt that I was not born to do just one sort of work. I am sure, I feel different from the rest, as not many people I share my thoughts with, connect with me. 
-<br/><hr/>
-I like philosophizing about vague conventions, human behaviours, climate change, end of the world and so on. It sometimes bewilders me how the concept of money is just virtual: a random number in each of our banks, and still holds the power to decide what resources of this planet will "BELONG" to whom. Then I stop, and begin reading *The Kite Runner* by Khaled Hosseini for the fifth time. Peace.
+#### Getting Subjective...
+I am a B.Tech graduate with 2 years of experience in the IT industry. My primary job functions are as a software developer. But I've always felt that I was not born to do just one sort of work. I am sure, I feel different from the rest, as not many people I share my thoughts with, connect with me.
 
 <br/>
+I like philosophizing about vague conventions, human behaviours, climate change, end of the world and so on. It sometimes bewilders me how the concept of money is just virtual: a random number in each of our banks, and still holds the power to decide what resources of this planet will "BELONG" to whom. Then I stop, and begin reading *The Kite Runner* by Khaled Hosseini for the fifth time. Peace.
+<br/><hr/>
 
 #### Currently
 I am on a learning spree while being at work, meaning -> I am pretty fortunate. I do what my heart likes, not to mention, I watch any movie, without facing judgement from anyone. Lately, the extremity of getting inspired from each movie I see has heightened. I feel as if my brain has developed exponentially in a short span of time and its astonishing to start seeing the world so differently all of a sudden.
 <hr/>
-Following this: all my childhood thoughts have started to gain shape and I like to believe that out of zillions of humans at least I am one those who will make these things a reality one day.
+Following this: all my childhood thoughts have started to gain shape and I like to believe that out of zillions of humans at least I am one of those who will make these things a reality one day.
 <br><hr/>
 
 #### Some history

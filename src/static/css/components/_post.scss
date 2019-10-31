@@ -13,6 +13,12 @@
 		margin: 0 0 _size(section-spacing) 0;
 		position: relative;
 
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
 		> header {
 			@include vendor('display', 'flex');
 			border-bottom: solid 1px _palette(border);

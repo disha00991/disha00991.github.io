@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Main from '../layouts/Main';
 
@@ -80,14 +79,14 @@ const Contact = () => {
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
           >
-            <p style={{position: 'absolute', bottom: '84px'}}>{message}</p>
+            <p style={{ position: 'absolute', top: '110px' }}>{message}</p>
           </div>
         </div>
         <ul className="icons">
           {data.map((s) => (
             <li key={s.label}>
               <a href={s.link}>
-                <FontAwesomeIcon icon={s.icon} />
+                <i className={s.iconClass}></i>
               </a>
             </li>
           ))}

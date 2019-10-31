@@ -30,4 +30,9 @@
 			padding: _size(section-spacing) 0 0 0;
 			width: 100%;
 		}
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
