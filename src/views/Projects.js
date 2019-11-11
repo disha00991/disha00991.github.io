@@ -9,7 +9,7 @@ import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
 const Projects = () => (
-  <Main>
+  <Main fullPage={true}>
     <Helmet title="Projects" />
     <article className="post" id="projects">
       <header>
@@ -18,7 +18,7 @@ const Projects = () => (
           <p>A selection of projects that I think are worth your time</p>
         </div>
       </header>
-      <Carousel>
+      <Carousel slide={false}>
         {data.map((project) => (
           <Carousel.Item>
             <Cell data={project} key={project.title} />

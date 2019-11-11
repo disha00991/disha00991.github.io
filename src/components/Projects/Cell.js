@@ -10,11 +10,13 @@ const Cell = ({ data }) => (
         <span className="published">{data.subtitle}</span>
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
       </header>
-      <span className="image">
-        <img src={process.env.PUBLIC_URL + data.image} alt={data.title} />
-      </span>
-      <div className="description">
-        <p>{data.desc}</p>
+      <div className="row">
+        <span className="col-md-6 image">
+          <img src={process.env.PUBLIC_URL + data.image} alt={data.title} />
+        </span>
+        <div className="description col-md-6">
+          <p>{data.desc}</p>
+        </div>
       </div>
     </article>
   </div>
