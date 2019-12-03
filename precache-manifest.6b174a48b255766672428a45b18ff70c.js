@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7948f89703aa074a5934343a6dd7d59a",
+    "revision": "3f3bdc695f46af1065541137a5af0f10",
     "url": "/webume/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webume/static/css/2.399a7103.chunk.css"
   },
   {
-    "revision": "62c99d35d1dbc64e9f48",
+    "revision": "ad2b2330c8659adaec51",
     "url": "/webume/static/css/main.7493fdec.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webume/static/js/2.b2ac725d.chunk.js"
   },
   {
-    "revision": "62c99d35d1dbc64e9f48",
-    "url": "/webume/static/js/main.0daab670.chunk.js"
+    "revision": "ad2b2330c8659adaec51",
+    "url": "/webume/static/js/main.54d933c1.chunk.js"
   },
   {
     "revision": "799678427f078beb789f",
