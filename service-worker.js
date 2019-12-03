@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/webume/precache-manifest.8fed88e44507499812dfa9f7dca945ba.js"
+  "/webume/precache-manifest.a534b3ef014f6f4666337ac03cd5ec02.js"
 );
 
 self.addEventListener('message', (event) => {
