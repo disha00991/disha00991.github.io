@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/webume/static/css/main.7493fdec.chunk.css",
-    "main.js": "/webume/static/js/main.54d933c1.chunk.js",
-    "main.js.map": "/webume/static/js/main.54d933c1.chunk.js.map",
+    "main.js": "/webume/static/js/main.c6961888.chunk.js",
+    "main.js.map": "/webume/static/js/main.c6961888.chunk.js.map",
     "runtime-main.js": "/webume/static/js/runtime-main.6e8e1a60.js",
     "runtime-main.js.map": "/webume/static/js/runtime-main.6e8e1a60.js.map",
     "static/css/2.399a7103.chunk.css": "/webume/static/css/2.399a7103.chunk.css",
     "static/js/2.b2ac725d.chunk.js": "/webume/static/js/2.b2ac725d.chunk.js",
     "static/js/2.b2ac725d.chunk.js.map": "/webume/static/js/2.b2ac725d.chunk.js.map",
     "index.html": "/webume/index.html",
-    "precache-manifest.6b174a48b255766672428a45b18ff70c.js": "/webume/precache-manifest.6b174a48b255766672428a45b18ff70c.js",
+    "precache-manifest.8fed88e44507499812dfa9f7dca945ba.js": "/webume/precache-manifest.8fed88e44507499812dfa9f7dca945ba.js",
     "service-worker.js": "/webume/service-worker.js",
     "static/css/2.399a7103.chunk.css.map": "/webume/static/css/2.399a7103.chunk.css.map",
     "static/css/main.7493fdec.chunk.css.map": "/webume/static/css/main.7493fdec.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.399a7103.chunk.css",
     "static/js/2.b2ac725d.chunk.js",
     "static/css/main.7493fdec.chunk.css",
-    "static/js/main.54d933c1.chunk.js"
+    "static/js/main.c6961888.chunk.js"
   ]
 }
