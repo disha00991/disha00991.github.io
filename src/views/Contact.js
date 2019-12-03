@@ -65,7 +65,7 @@ const Contact = () => {
       <article className="post" id="contact">
         <header>
           <div className="title">
-            <h2><Link to="/contact">Contact</Link></h2>
+            <h2>Contact</h2>
           </div>
         </header>
         <div className="email-at">

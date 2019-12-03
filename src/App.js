@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Switch, Route,
+  Switch, Route, HashRouter
 } from 'react-router-dom';
 import "react-bootstrap/dist/react-bootstrap.min.js";
 
@@ -20,17 +20,17 @@ import './static/css/main.scss';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter basename='/'>
         <Switch>
-          <Route exact path="/" component={Index} />
           <Route path="/resume" component={Resume} />
           <Route path="/dreams" component={Dreams} />
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route component={NotFound} status={404} />
+          <Route exact path="/" component={Index} />
+          <Route component={NotFound} path={`/404`} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }

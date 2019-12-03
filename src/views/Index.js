@@ -9,7 +9,7 @@ const Index = () => (
         <article className="post" id="index">
             <header>
                 <div className="title">
-                    <h2><Link to="/">About Webume</Link></h2>
+                    <h2>About Webume</h2>
                     <p>This artistic, responsive, react app was written solely for the purpose of self-branding.</p>
                 </div>
             </header>
