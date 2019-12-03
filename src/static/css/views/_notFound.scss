@@ -3,4 +3,13 @@
 .not-found {
   text-align: center;
   margin: 5em;
+
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin-left: 30px;
+  }
 }

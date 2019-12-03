@@ -18,6 +18,7 @@ const Index = () => (
                 <Link to="/resume">resume</Link>, {' '}
                 <Link to="/dreams">some of my PLAN-A dreams</Link>, {' '}
                 <Link to="/projects">projects</Link>, {' '}
+                <Link to="/about">about</Link>, {' '}
                 or <Link to="/contact">contact</Link> pages.
             </p>
             <p>Feel free to find bugs and throw at me. Next refresh & the bug will #RIP. Promise! Just as is, this
