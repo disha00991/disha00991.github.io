@@ -19,8 +19,8 @@ const Nav = () => (
       <h2>Who's She?</h2>
       <p>Hi, I&apos;m Disha. I like appreciating people who build things and get inspired.
             I am a proud <a href="https://nith.ac.in/">NIT, Hamirpur, India</a> graduate, and {/* add dance club link @TODO*/}
-            the co-founder of 3rd year choreo in <a href="#">Dance Club Rhythmeecs</a>. After college I was
-            at <a href="https://www.publicissapient.com">Publicis Sapient</a>, and currently exploring my potential at <a href="www.thb.co.in">THB India</a>.
+            the co-founder of 3rd year choreo in <a href="https://www.instagram.com/rhythmeecz_nith/">Dance Club Rhythmeecs</a>. After college I was
+            at <a href="https://www.publicissapient.com">Publicis Sapient</a>, and currently exploring my potential at <a href="https://www.thb.co.in">THB India</a>.
       </p>
       <ul className="actions">
         <li>

@@ -3,7 +3,7 @@ const positions = [
   {
     company: 'THB Technology | Healthcare | Big Data Analytics',
     position: 'Software Developer',
-    link: 'www.thb.co.in',
+    link: 'https://www.thb.co.in',
     daterange: 'September 2019 - Present',
     points: [
     ],

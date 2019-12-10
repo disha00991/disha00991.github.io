@@ -17,8 +17,8 @@ const data = [
     link: '',
     image: '/images/projects/match_prediction.jpg',
     date: '2019-02-01',
-    desc: 'Utilized the statistics of chosen players from the past 5 years to determine'+
-    'if India will win or loose a cricket match. Learnt Pandas, Numpy, Scikit-Learn libraries.'
+    desc: 'Utilized the statistics of chosen players from the past 5 years to determine '+
+    'if India will win or lose a cricket match. Learnt Pandas, Numpy, Scikit-Learn libraries.'
   }, {
     title: 'Trade Management System',
     subtitle: 'Microservices based Full-stack Training culmination Project @ Publicis Sapient',

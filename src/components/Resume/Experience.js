@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import Job from './Experience/Job';
 
-const Experience = ({ data }) => (
-  <div className="experience">
+const Experience = ({ data, refProp }) => (
+  <div ref={refProp} className="experience">
     <div className="link-to" id="experience" />
     <div className="title">
       <h3>Experience</h3>
