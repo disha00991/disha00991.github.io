@@ -39,6 +39,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
+      <p className="icons made-with">Made with <i className="fa fa-heart" aria-hidden="true"></i> & <i class="fa fa-coffee" aria-hidden="true"></i></p>
       <p className="copyright">&copy; Disha Singh</p>
     </section>
   </section>
