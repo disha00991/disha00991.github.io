@@ -23,4 +23,9 @@
 		body.single & {
 			text-align: center;
 		}
+
+		.made-with {
+			font-family: _font(family-heading);
+			font-size: 0.9em;
+		}
 	}
