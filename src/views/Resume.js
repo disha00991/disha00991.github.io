@@ -19,7 +19,7 @@ const sections = [
   'Education',
   'Experience',
   // 'Skills',
-  // 'Courses',
+  'Courses',
   'References',
 ];
 class Resume extends React.Component {
@@ -28,6 +28,7 @@ class Resume extends React.Component {
     this.eduRef = React.createRef();
     this.expRef = React.createRef();
     this.referencesRef = React.createRef();
+    this.coursesRef = React.createRef();
   }
 
   scrollIntoView = (section) => {
@@ -43,6 +44,9 @@ class Resume extends React.Component {
       case 'references':
         ref = this.referencesRef;
         break;
+      case 'courses':
+        ref = this.coursesRef;
+        break;      
       default:
     }
     if (ref) window.scrollTo(0, ref.current.offsetTop);
@@ -67,10 +71,9 @@ class Resume extends React.Component {
         </header>
         <Education data={degrees} refProp={this.eduRef} />
         <Experience data={positions} refProp={this.expRef} />
-        {/* <Skills skills={skills} categories={categories} />
-      <Courses data={courses} /> */}
+        {/* <Skills skills={skills} categories={categories} /> */}
+        <Courses data={courses} refProp={this.coursesRef}/>
         <References refProp={this.referencesRef} />
-
       </article>
     </Main>;
   }

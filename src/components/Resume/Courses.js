@@ -18,15 +18,18 @@ const getRows = (courses) => courses.sort((a, b) => {
   />
 ));
 
-const Courses = ({ data }) => (
-  <div className="courses">
+const Courses = ({ data, refProp }) => (
+  <div ref={refProp} className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Selected Courses</h3>
+      <h3>Courses Taken</h3>
     </div>
+    <h5>Undergraduate</h5>
     <ul className="course-list">
-      {getRows(data)}
+      {getRows(data.undergraduate)}
     </ul>
+    <h5>Graduate</h5>
+    <p>To be updated soon</p>
   </div>
 );
 
