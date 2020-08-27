@@ -1,0 +1,27 @@
+// About page (/about)
+
+#blogs {
+  .card {
+      height: 300px;
+      padding: 0;
+    }
+    h2 {
+      font-size: 1.7em;
+    }
+    img {
+      max-height: 290px;
+      position: absolute;
+      z-index: 0;
+      opacity: 0.7;
+    }
+    .content {
+      z-index: 1;
+      text-align: center;
+      margin-top: 30%;
+    }
+  .life-blog {
+    img {
+      margin-left: 6px;
+    }
+  }
+}

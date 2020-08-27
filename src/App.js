@@ -10,6 +10,7 @@ import Resume from './views/Resume';
 import Dreams from './views/Dreams';
 import Projects from './views/Projects';
 import About from './views/About';
+import Blogs from './views/Blogs';
 import Contact from './views/Contact';
 
 import NotFound from './views/NotFound';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/resume" component={Resume} />
           <Route path="/dreams" component={Dreams} />
           <Route path="/projects" component={Projects} />
+          <Route path="/blogs" component={Blogs} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route exact path="/" component={Index} />
