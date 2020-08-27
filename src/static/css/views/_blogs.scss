@@ -2,9 +2,13 @@
 
 #blogs {
   .card {
+      width: 42%;
+      max-width: 325px;
       height: 300px;
-      padding: 0;
+      padding: 0;   
+      margin: 10px;  
     }
+    
     h2 {
       font-size: 1.7em;
     }
@@ -23,5 +27,12 @@
     img {
       margin-left: 6px;
     }
+  }
+}
+
+@include breakpoint(small) {
+  #blogs .card {
+    width: 100%;
+    max-width: unset;
   }
 }
