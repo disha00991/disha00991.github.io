@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/webume/static/css/main.5eea4df2.chunk.css",
-    "main.js": "/webume/static/js/main.4d1baaa6.chunk.js",
-    "main.js.map": "/webume/static/js/main.4d1baaa6.chunk.js.map",
+    "main.js": "/webume/static/js/main.c5cbec97.chunk.js",
+    "main.js.map": "/webume/static/js/main.c5cbec97.chunk.js.map",
     "runtime-main.js": "/webume/static/js/runtime-main.6e8e1a60.js",
     "runtime-main.js.map": "/webume/static/js/runtime-main.6e8e1a60.js.map",
-    "static/css/2.399a7103.chunk.css": "/webume/static/css/2.399a7103.chunk.css",
+    "static/css/2.44c17cc6.chunk.css": "/webume/static/css/2.44c17cc6.chunk.css",
     "static/js/2.e320fe51.chunk.js": "/webume/static/js/2.e320fe51.chunk.js",
     "static/js/2.e320fe51.chunk.js.map": "/webume/static/js/2.e320fe51.chunk.js.map",
     "index.html": "/webume/index.html",
-    "precache-manifest.64b2064d880152cbe018daaff08b6457.js": "/webume/precache-manifest.64b2064d880152cbe018daaff08b6457.js",
+    "precache-manifest.d47d75760912ec27fc1b7b4f9276ca98.js": "/webume/precache-manifest.d47d75760912ec27fc1b7b4f9276ca98.js",
     "service-worker.js": "/webume/service-worker.js",
-    "static/css/2.399a7103.chunk.css.map": "/webume/static/css/2.399a7103.chunk.css.map",
+    "static/css/2.44c17cc6.chunk.css.map": "/webume/static/css/2.44c17cc6.chunk.css.map",
     "static/css/main.5eea4df2.chunk.css.map": "/webume/static/css/main.5eea4df2.chunk.css.map",
     "static/media/about.md": "/webume/static/media/about.ef2171de.md",
     "static/media/dreams.md": "/webume/static/media/dreams.35f56039.md"
   },
   "entrypoints": [
     "static/js/runtime-main.6e8e1a60.js",
-    "static/css/2.399a7103.chunk.css",
+    "static/css/2.44c17cc6.chunk.css",
     "static/js/2.e320fe51.chunk.js",
     "static/css/main.5eea4df2.chunk.css",
-    "static/js/main.4d1baaa6.chunk.js"
+    "static/js/main.c5cbec97.chunk.js"
   ]
 }
