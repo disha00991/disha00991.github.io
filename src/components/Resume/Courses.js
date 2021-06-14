@@ -24,12 +24,14 @@ const Courses = ({ data, refProp }) => (
     <div className="title">
       <h3>Courses Taken</h3>
     </div>
+    <h5>Graduate</h5>
+    <ul className="course-list">
+      {getRows(data.graduate)}
+    </ul>
     <h5>Undergraduate</h5>
     <ul className="course-list">
       {getRows(data.undergraduate)}
     </ul>
-    <h5>Graduate</h5>
-    <p>To be updated soon</p>
   </div>
 );
 

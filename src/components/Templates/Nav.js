@@ -11,22 +11,21 @@ const Nav = () => (
       </Link>
       <header>
         <h2>Disha Singh</h2>
-        <p><a href="mailto:disha.singh00991@gmail.com">disha.singh00991@gmail.com</a></p>
+        <p><a href="mailto:dishasingh@umass.edu">dishasingh@umass.edu</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>Who's She?</h2>
-      <p>Hi, I&apos;m Disha. I like appreciating people who build things and get inspired.
-            I am a proud <a href="https://nith.ac.in/">NIT, Hamirpur, India</a> graduate, and {/* add dance club link @TODO*/}
-            the co-founder of 3rd year choreo in <a href="https://www.instagram.com/rhythmeecz_nith/">Dance Club Rhythmeecs</a>. After college I was
-            at <a href="https://www.publicissapient.com">Publicis Sapient</a>, and currently exploring my potential at <a href="https://www.thb.co.in">THB India</a>.
-      </p>
+      <p>Hi, I&apos;m Disha. I am currently pursuing Masters in Computer Science @ the University of Massachusetts, Amherst. Areas like Artificial Intelligence, especially Machine Learning and Natural Language Processing interest me 
+        while I feel grateful to be a contributor in the most revolutionary era of human history. I am a proud <a href="https://nith.ac.in/">NIT, Hamirpur</a> graduate where I pursued my love for Code and 
+        <a href="https://www.instagram.com/rhythmeecz_nith/"> Dance</a> alike.
       <ul className="actions">
         <li>
           {window.location.hash !== `#/resume` ? <Link to="/resume" className="button">My Work</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
+      </p>
     </section>
 
     <section id="footer">

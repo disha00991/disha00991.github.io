@@ -10,11 +10,6 @@ const undergraduate = [
     link: '',
     univerity: 'NITH',
   }, {
-    title: 'AI',
-    number: 'CS 229',
-    link: '',
-    univerity: 'NITH',
-  }, {
     title: 'Computer Fundamentals & Programming',
     number: 'CS 101',
     link: '',
@@ -38,7 +33,22 @@ const undergraduate = [
 ];
 
 const graduate = [
-  
+  {
+    title: 'Machine Learning',
+    number: 'COMPSCI 589',
+    link: '',
+    univerity: 'UMass A',
+  }, {
+    title: 'Intelligent Visual Computing',
+    number: 'COMPSCI 674',
+    link: '',
+    univerity: 'UMass A',
+  }, {
+    title: 'Systems for Data Science',
+    number: 'COMPSCI 532',
+    link: '',
+    univerity: 'UMass',
+  }
 ];
 
 const courses = {

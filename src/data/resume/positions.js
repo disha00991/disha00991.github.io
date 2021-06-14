@@ -1,10 +1,17 @@
 //TODO Add about experience
 const positions = [
   {
-    company: 'THB Technology | Healthcare | Big Data Analytics',
+    company: 'Data Science for Common Good',
+    position: 'Intern',
+    link: 'https://ds.cs.umass.edu/industry/data-science-common-good',
+    daterange: 'June 2021 - August 2021',
+    points: [
+    ],
+  }, {
+    company: 'THB India',
     position: 'Software Developer',
     link: 'https://www.thb.co.in',
-    daterange: 'September 2019 - Present',
+    daterange: 'September 2019 - September 2020',
     points: [
     ],
   }, {

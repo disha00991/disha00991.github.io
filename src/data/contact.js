@@ -10,7 +10,7 @@ const data = [
     iconClass: 'fa fa-linkedin',
   },
   {
-    link: 'https://today5or5never.wordpress.com/',
+    link: 'https://disha00991.wordpress.com/',
     label: 'Wordpress',
     iconClass: 'fa fa-wordpress',
   },
