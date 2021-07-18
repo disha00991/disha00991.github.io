@@ -9,10 +9,13 @@ const Projects = () => (
     <Main fullPage={true}>
         <Helmet title="Color Palette" />
         <article className="post" id="projects">
-            <header>
-                <div className="title">
+            <header className="row">
+                <div className="title col-6">
                     <h2>Create a Color Palette</h2>
                     <p>A project based on Clustering methods in Machine Learning</p>
+                </div>
+                <div className="title col-6">
+                    <img width="120px" src={process.env.PUBLIC_URL+'/images/palet.png'}/>
                 </div>
             </header>
             <p><strong>About Project:</strong> This project uses one of the methods in unsupervised learning to cluster the different colors in
@@ -39,9 +42,7 @@ export function ClusteringForm(props) {
 
     const callAPI = () => {
         setLoading(true)
-        axios({
-            method: 'GET',
-            url: 'http://192.168.0.12:8080/get_color_palette',
+        axios.post('https://color-palette-creation.herokuapp.com/get_color_palette', {
             data: {
                 url: url,
                 is_url: 'true',
