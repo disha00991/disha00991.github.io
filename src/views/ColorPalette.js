@@ -44,9 +44,9 @@ export function ClusteringForm(props) {
     const callAPI = () => {
         setLoading(true)
         let queryParams = `is_url=${true}&url=${url}&algo=${algo}&n_colors=${n_colors}`
-        axios.post('https://color-palette-creation.herokuapp.com/get_color_palette?' + queryParams, {
+        axios.get('https://color-palette-creation.herokuapp.com/get_color_palette?' + queryParams, {
             headers: {
-                'Access-Control-Allow-Origin': '*'
+                "Access-Control-Allow-Origin": "*"
             }
         }).then(
             (response) => {
@@ -73,7 +73,7 @@ export function ClusteringForm(props) {
                 </label>
                 <label className="col-2" >
                     No. of colors*:
-                    <input type="number" min="1" name="n_colors" id="n_colors" value={n_colors} onChange={e => setNoOfColors(e.target.value)}/>
+                    <input type="number" min="1" name="n_colors" id="n_colors" value={n_colors} onChange={e => setNoOfColors(e.target.value)} />
                 </label>
                 <label className="col-7">
                     Image URL*:
@@ -83,13 +83,13 @@ export function ClusteringForm(props) {
                 {algo && url && n_colors && <input type="submit" value="Create Palette!" disable={!url || !algo} />}
                 {loading && <div style={{ display: 'inline', marginLeft: '15px' }}><Spinner height={40} width={40}></Spinner></div>}
             </form>
-            {error && <small style={{ 'color': 'red' }}>Some error occurred!</small>}
+            {error && !palette && <small style={{ 'color': 'red' }}>Some error occurred!</small>}
             {palette && url && <div className="palette-container">
                 <div className="mb-10">
                     {palette.map(clr => <div className="palette-color d-inline-block" style={{ backgroundColor: clr }}></div>)}
                 </div>
-                <img src={url} width="400"/>
-            </div>}           
+                <img src={url} width="400" />
+            </div>}
         </>
     );
 }
