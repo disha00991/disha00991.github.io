@@ -31,7 +31,7 @@ export function ClusteringForm(props) {
     const [algo, setAlgo] = useState("KMeans");
     const [url, setUrl] = useState("");
     const [n_colors, setNoOfColors] = useState(6);
-    const algoOptions = ['KMeans', 'KMeans++', 'Heirarchical Clustering', 'DAG Clustering', 'Linear Discriminant(LDA)', 'Kernel PCA']
+    const algoOptions = {kmeans: 'KMeans', kmeans_plus: 'KMeans++', hac: 'Heirarchical (SLOW:Use extremely low resolution image)', birch: 'Birch'}
     const [palette, setPalette] = useState("")
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
@@ -41,10 +41,12 @@ export function ClusteringForm(props) {
         callAPI()
     }
 
+    
+    // https://color-palette-creation.herokuapp.com/
     const callAPI = () => {
         setLoading(true)
         let queryParams = `is_url=${true}&url=${url}&algo=${algo}&n_colors=${n_colors}`
-        axios.get('https://color-palette-creation.herokuapp.com/get_color_palette?' + queryParams, {
+        axios.get('http://127.0.0.1:5000/get_color_palette?' + queryParams, {
             headers: {
                 "Access-Control-Allow-Origin": "*"
             }
@@ -68,7 +70,7 @@ export function ClusteringForm(props) {
                 <label className="col-3 pd-0" >
                     Algorithm to use*:
                     <select name="algo" id="algo" value={algo} onChange={e => setAlgo(e.target.value)}>
-                        {algoOptions && algoOptions.map(al => <option value={al}>{al}</option>)}
+                        {algoOptions && Object.entries(algoOptions).map(([key, value]) => <option value={key}>{value}</option>)}
                     </select>
                 </label>
                 <label className="col-2" >
@@ -84,7 +86,7 @@ export function ClusteringForm(props) {
                 {loading && <div style={{ display: 'inline', marginLeft: '15px' }}><Spinner height={40} width={40}></Spinner></div>}
             </form>
             {error && !palette && <small style={{ 'color': 'red' }}>Some error occurred!</small>}
-            {palette && url && <div className="palette-container">
+            {palette && !loading && <div className="palette-container">
                 <div className="mb-10">
                     {palette.map(clr => <div className="palette-color d-inline-block" style={{ backgroundColor: clr }}></div>)}
                 </div>
