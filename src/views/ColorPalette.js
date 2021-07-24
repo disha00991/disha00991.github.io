@@ -46,7 +46,7 @@ export function ClusteringForm(props) {
     const callAPI = () => {
         setLoading(true)
         let queryParams = `is_url=${true}&url=${url}&algo=${algo}&n_colors=${n_colors}`
-        axios.get('http://127.0.0.1:5000/get_color_palette?' + queryParams, {
+        axios.get('https://color-palette-creation.herokuapp.com/get_color_palette?' + queryParams, {
             headers: {
                 "Access-Control-Allow-Origin": "*"
             }
