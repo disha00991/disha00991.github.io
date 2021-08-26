@@ -37,8 +37,8 @@ const Projects = () => (
               <Card.Text>
                 {project.desc}
               </Card.Text>
-              {project.link && <><i className="fa fa-plane-departure"></i><Link to={project.link}> Check it out!</Link></>}<br/>
-              {project.github && <><i className="fa fa-plane-departure"></i><Link to={project.github}><i className="fa fa-laptop-code"></i> Github repo</Link></>}
+              {project.link && <><span><i className="fa fa-laptop"></i><a href={project.link}> Check it out!</a></span></>}<br/>
+              {project.github && <><span><i className="fa fa-github"></i><a href={project.github}> Github repo</a></span></>}
             </Card.Body>
           </Card>))}
       </div>
