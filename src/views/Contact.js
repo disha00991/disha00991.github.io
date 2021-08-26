@@ -69,7 +69,9 @@ const Contact = () => {
           </div>
         </header>
         <div className="email-at">
-          <p>My formal mails usually arrive at{' '}
+          <p>My school email{' '}
+            <a href="mailto:dishasingh@umass.edu" style={{ color: 'teal' }}>dishasingh@umass.edu</a></p>
+          <p>My other formal mails usually arrive at{' '}
             <a href="mailto:disha.singh00991@gmail.com" style={{ color: 'teal' }}>disha.singh00991@gmail.com</a></p>
           <p>My informal mails drop by here:{' '}
             <a href="mailto:directionstar86@gmail.com" style={{ color: 'teal' }}>directionstar86@gmail.com</a></p>

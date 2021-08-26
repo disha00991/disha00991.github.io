@@ -1,32 +1,112 @@
 export const categories = [
   {
-    name: 'Frameworks',
+    name: 'Data Science',
+    color: 'lightcoral',
+  },
+  {
+    name: 'Languages/Libraries',
+    color: 'pink',
+  },
+  {
+    name: 'Tools',
     color: '#515dd4',
   }, {
-    name: 'Databases',
+    name: 'Web Development',
     color: '#3896e2',
   }
 ];
 
 export const skills = [
   {
-    title: 'Javascript',
-    compentency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    title: 'Predictive Modelling',
+    category: ['Data Science'],
   },
   {
-    title: 'React',
-    compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    title: 'Data Analysis',
+    category: ['Data Science'],
   },
   {
-    title: 'Git',
-    compentency: 3,
+    title: 'Data Visualization',
+    category: ['Data Science'],
+  },
+  {
+    title: 'Clustering',
+    category: ['Data Science'],
+  },
+  {
+    title: 'Classification',
+    category: ['Data Science'],
+  },
+  {
+    title: 'Python',
+    category: ['Languages/Libraries'],
+  },
+  {
+    title: 'Pytorch',
+    category: ['Languages/Libraries'],
+  },
+  {
+    title: 'Pandas',
+    category: ['Languages/Libraries'],
+  },
+  {
+    title: 'Matplotlib',
+    category: ['Languages/Libraries'],
+  },
+  {
+    title: 'Seaborn',
+    category: ['Languages/Libraries'],
+  },
+  {
+    title: 'SQL',
+    category: ['Languages/Libraries'],
+  },
+  {
+    title: 'Visual Studio Code',
     category: ['Tools'],
   },
   {
-    title: 'Numpy',
-    compentency: 3,
-    category: ['Data Science', 'Machine Learning', 'Python'],
+    title: 'QGIS',
+    category: ['Tools'],
+  },
+  {
+    title: 'Jupyter-Notebook',
+    category: ['Tools'],
+  },
+  {
+    title: 'Tableau',
+    category: ['Tools'],
+  },
+  {
+    title: 'Tableau Prep Builder',
+    category: ['Tools'],
+  },
+  {
+    title: 'Azure Machine Learning',
+    category: ['Tools'],
+  },
+  {
+    title: 'Git',
+    category: ['Tools'],
+  },
+  {
+    title: 'Javascript',
+    category: ['Web Development'],
+  },
+  {
+    title: 'ReactJS',
+    category: ['Web Development'],
+  },
+  {
+    title: 'Angular 5',
+    category: ['Web Development'],
+  },
+  {
+    title: 'Figma',
+    category: ['Web Development'],
+  },
+  {
+    title: 'SCSS/CSS',
+    category: ['Web Development'],
   }
 ];

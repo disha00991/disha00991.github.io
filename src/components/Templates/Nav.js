@@ -17,8 +17,7 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>Who's She?</h2>
-      <p>Hi, I&apos;m Disha. I am currently pursuing Masters in Computer Science @ the University of Massachusetts, Amherst. Areas like Artificial Intelligence, especially Machine Learning and Natural Language Processing interest me 
-        while I feel grateful to be a contributor in the most revolutionary era of human history. I am a proud <a href="https://nith.ac.in/">NIT, Hamirpur</a> graduate where I pursued my love for Code and 
+      <p>Hi, I&apos;m Disha. I am currently pursuing Masters in Computer Science with a Concentration in Data Science @ the University of Massachusetts, Amherst. I am interested to work in the areas of Data Analysis, Data Visualization, Machine Learning and Natural Language Processing. I am a proud <a href="https://nith.ac.in/">NIT Hamirpur</a> graduate where I pursued my love for Code and 
         <a href="https://www.instagram.com/rhythmeecz_nith/"> Dance</a> alike.
       <ul className="actions">
         <li>

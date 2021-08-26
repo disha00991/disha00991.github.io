@@ -20,7 +20,7 @@ const bio = [
   {
     label: 'liveIn',
     title: 'Live In',
-    data: 'Gurgaon, India',
+    data: 'Amherst, Massachusetts, USA',
     iconClass: 'fa fa-home'
   },
   {

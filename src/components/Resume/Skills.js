@@ -30,16 +30,7 @@ class Skills extends Component {
       this.state.buttons[key] ? key : cat
     ), 'All');
 
-    return this.state.skills.sort((a, b) => {
-      let ret = 0;
-      if (a.compentency > b.compentency) ret = -1;
-      else if (a.compentency < b.compentency) ret = 1;
-      else if (a.category[0] > b.category[0]) ret = -1;
-      else if (a.category[0] < b.category[0]) ret = 1;
-      else if (a.title > b.title) ret = 1;
-      else if (a.title < b.title) ret = -1;
-      return ret;
-    }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
+    return this.state.skills.filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
       .map((skill) => (
         <SkillBar
           categories={this.props.categories}
@@ -75,12 +66,11 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className="skills">
+      <div className="skills"  ref={this.props.refProp}>
         <div className="link-to" id="skills" />
         <div className="title">
           <h3>Skills</h3>
-          <p>Note: I think these sections are silly, but everyone seems to have one.</p>
-        </div>
+          </div>
         <div className="skill-button-container">
           {this.getButtons()}
         </div>
@@ -95,7 +85,6 @@ class Skills extends Component {
 Skills.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
-    compentency: PropTypes.number,
     category: PropTypes.arrayOf(PropTypes.string),
   })),
   categories: PropTypes.arrayOf(PropTypes.shape({

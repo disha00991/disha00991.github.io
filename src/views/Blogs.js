@@ -23,13 +23,13 @@ const Blogs = () => {
             </div>
             <img src={process.env.PUBLIC_URL+"/images/laptop.svg"} />
           </a>
-          <a className="card life-blog" href="https://today5or5never.wordpress.com">
+          {/* <a className="card life-blog" href="https://today5or5never.wordpress.com">
             <div className="content">
               <h2>Life Blog</h2>
               <em>Today or Never</em>
             </div>
             <img src={process.env.PUBLIC_URL+"/images/flowers.png"} />
-          </a>
+          </a> */}
         </div>
       </article>
     </Main>
