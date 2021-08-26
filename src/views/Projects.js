@@ -30,7 +30,7 @@ const Projects = () => (
       <div className="post-card">
         {data.map((project) => (
           <Card style={{ width: '23rem' }}>
-            <Card.Img variant="top" src={project.image} />
+            <Card.Img variant="top" src={process.env.PUBLIC_URL+project.image} />
             <Card.Body>
               <Card.Title>{project.title}<br/><small>{project.date}</small> <br/> <small>{project.subtitle}</small>
               </Card.Title>              
